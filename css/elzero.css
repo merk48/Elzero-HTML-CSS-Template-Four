@@ -1895,11 +1895,6 @@ header .container  .main-nav > li:last-child .mega-menu .links li:hover a {
     border: none;
     border-bottom: 1px solid var(--main-color-alt2);
     position: relative;
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
 }
 .request-discount .discount-section .discount-info form input[type="submit"] {
     border: 1px solid var(--main-color);
@@ -1912,6 +1907,11 @@ header .container  .main-nav > li:last-child .mega-menu .links li:hover a {
     margin: 0 auto 10px;
     cursor: pointer;
     transition: var(--main-transition-duration);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 .request-discount .discount-section .discount-info form input[type="submit"]:hover {
     background-color:var(--main-color) ;
