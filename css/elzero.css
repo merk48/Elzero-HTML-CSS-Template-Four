@@ -474,6 +474,7 @@ header .container  .main-nav > li:last-child .mega-menu .links li:hover a {
 @media (max-width: 991px) {
     .landing .container .text {
         text-align: center;
+        max-width: 100%;
     }
 }
 .landing .container .text h1 {
